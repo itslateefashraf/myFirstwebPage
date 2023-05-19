@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>contact form</title>
+</head>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .container {
+    width: 100%;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(214, 242, 243);
+  }
+
+  .heading {
+  
+    width: 600px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+  .wrapper{
+  
+    width: 500px;
+    height: 370px;
+    
+  }
+  .heading h1{
+    color: purple;
+    font-weight: 500;
+    font-size: 26px;
+    margin: 10px;
+  }
+  .first-name{
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    box-shadow: 1px 1px 1px 0.9px inset;
+  }
+  .first-name::placeholder{
+    font-size: 10px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(165, 119, 165);
+  
+  }
+  .address{
+    width: 425px;
+    height: 35px;
+    padding: 10px;
+    margin: 10px;
+  }
+  .address::placeholder{
+    font-size: 10px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(165, 119, 165);
+  }
+  .message{
+    width: 425px;
+    height: 60px;
+    padding: 10px;
+    margin: 10px;
+    padding-bottom: 40px;
+  }
+  .message::placeholder{
+    font-size: 10px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(165, 119, 165);
+   
+  }
+  .submit{
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  .submit button:hover{
+   background-color: rgb(165, 104, 165);
+  }
+
+  .submit button{
+    
+    background-color: purple;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    border: none;
+  }
+  
+
+ 
+</style>
+
+<body>
+  <div class="container">
+    <div class="heading">
+      <div class="wrapper">
+        <h1>Get In Touch</h1>
+        <div class="section1">
+          <input class="first-name" type="text" placeholder="First Name">
+          <input class="first-name" type="text" placeholder="Second Name">
+        </div>
+        <div class="section2">
+
+          <input class="first-name" type="text" placeholder="Email">
+          <input class="first-name" type="text" placeholder="Phone">
+        </div>
+        <div class="section3">
+          <input class="address" type="text" placeholder="Address">
+        </div>
+        <div class="section4">
+          <input class="message" type="text" placeholder="Type Your Message here">
+        </div>
+        <div class="submit">
+          <button class="submit" >Submit</button>
+        </div>
+      </div>
+      
+      
+      </div>
+     
+     
+    </div>
+
+
+
+
+</body>
+
+</html>
