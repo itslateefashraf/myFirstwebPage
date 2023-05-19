@@ -6,288 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="web-design.css">
 </head>
-<style>
-  .container{
-    width: 100%;
-    height: 100vh;
-  }
-    header{
-        display: flex;
-        justify-content: space-around;
-    }
-    header h1{
-        font-size: 23px;
-        font-weight: 300;
-    }
-      nav ul {
-        list-style: none;
-        display: flex;
-        align-items: center;
-        gap: 30px;
-
-        text-transform: uppercase;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        cursor: pointer;
-    }
-    .main{
-        text-align: center;
-        height: 230px;
-        background-image: url(https://archive.org/download/mushishi_zoku_shou-03-winter-snow-mountains-ice-fog-clouds-cold-serene-beautiful-scenery-landscape/mushishi_zoku_shou-03-winter-snow-mountains-ice-fog-clouds-cold-serene-beautiful-scenery-landscape.jpg);
-        background-size: cover;
-        background-position: center;
-        
-        
-    }
-     .header h1{
-        font-size: 30px;
-        font-weight: 600;
-        font-family: Arial, Helvetica, sans-serif;
-        margin: 0; 
-    }
-      .header-para h2{
-    font-weight: 100;
-    margin: 0;
-    }
-     .started button{
-        background-color: rgba(0, 0, 0, 0.648);
-        color: white;
-        padding: 7px;
-        margin-top: 20px;
-        width: 130px;
-        border: none;
-        cursor: pointer;
-
-    } 
-    button:hover{
-        background-color: black;
-    }
-   
-  .header{
-    height: 230px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .wrapper{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    gap: 100px;
-
-  }
-  p,h3{
-    width: 300px;
-    margin: 0;
-  }
-  .icion-pen i{
-    margin-top: 40px;
-    border-radius: 50px ;
-    width: 30px;
-    height: 30px;
-    padding: 13px;
-    font-size: 28px;
-    border: 1px solid;
-    margin-bottom: 10px;
-    
-  }
-  .icion-layer i{
-    margin-top: 40px;
-    border-radius: 50% ;
-    border: 1px solid;
-    width: 30px;
-    height: 30px;
-    padding: 13px;
-    font-size: 28px;
-    margin-bottom: 10px;
-  }
-  .icion-flight i{
-    margin-top: 40px;
-    border-radius: 50px ;
-    width: 30px;
-    height: 30px;
-    padding: 13px;
-    font-size: 28px;
-    border: 1px solid;
-    margin-bottom: 10px;
-  }
-  .featured-content{
-    width: 100%;
-    height: 700px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
-    
-  }
-  .main-second {
-    margin-top: -60px;
-  }
-   .heading{
-    font-weight: 600;
-    font-size: 19px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 0;
-    
-  }
-  hr{
-    width: 200px;
-    
-  }
-  .featured-content p{
-    font-size: 12px;
-    width: 900px;
-    margin: 0;
-    text-align: center;
-    
-  }
-  .main-img{
-  width: 700px;
-  margin-top: 20px;
-  height: 400px;
-  
-  }
-     img{
-      width: 200px;
-      height: 200px;
-    }
-    .section{
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-    }
-    .box{
-      border: 1px solid whitesmoke;
-      width: 380px;
-      height: 200px;
-      display: flex;
-      justify-content: space-around;
-      text-align: center;
-    }
-    .box2{
-      border: 1px solid whitesmoke;
-      width: 380px;
-      height: 200px;
-    
-    }
-    .left-section{
-      background-color:whitesmoke;
-    }
-    h4{
-      text-align: center;
-    
-    }
-    
-  .para {
-    text-align: center;
-    width: 600px;
-    margin-left: 450px;
-  }
-  .box2{
-   display: flex;
-   justify-content: space-around;
-   text-align: center;
-   
-  }
-  .secondry{
-    
-    width: 100px;
-    margin-left: 45px;
-    font-size: 15px;
-  }
-  .label p{
-    text-align: center;
-    padding: 30px;
-    
-  
-  }
-  .label{
-    font-size: 13px;
-    width: 180px;
-  
-    
-  }
-  .view-more{
-   border: 3px solid rgb(126, 207, 214);
-   background: transparent;
-   color: rgb(126, 207, 214); 
-   padding: 2px;
-   width: 100px;
-   margin-top: 10px;
-  }
-.line{
-  width: 100px;
-  
-}
-.get-started{
-  text-align: center;
-  
-}
-.get-started button{
-  border: 2px solid  rgb(126, 207, 214);
-  background: transparent;
-  color: rgb(126, 207, 214);
-  width: 120px;
-  height: 30px;
-  margin-top: 20px;
-}
-.text-info{
-  margin-bottom: 10px;
-}
-.fotter{
-  border: 1px solid whitesmoke;
-  width: 100%;
-  height: 250px;
-  background-color: whitesmoke;
-  margin-top: 20px;
-  display: flex;
-  justify-content:center;
-  align-items: center;
-  gap: 2px;
-} 
-.col1{
-
-  width: 400px;
-  height: 200px;
-
-}
-.col2{
-
-  width: 150px;
-  height: 200px;
-  text-align: center;
-}
-.col3{
-
-  width: 150px;
-  height: 200px;
-  text-align: center;
-}
-.col4{
-  
-  width: 150px;
-  height: 200px;
-  text-align: center;
-}
-.links{
-  display: block;
-  padding: 7px;
-  text-decoration: none;
-  color: black;
-}
-.company{
-  margin: 0;
-}
-
-
-
-    
-    
-    
-
-</style>
 <body>
     <div class="container">
         <header>
@@ -300,18 +20,19 @@
                     <li>blog</li>   
                 </ul>
             </nav>
-        </header>
+          </header>
         <div class="main">
             <div class="header">
-                <h1>A MINIMAL,CLEAN</h1>
+                    <h1>A MINIMAL,CLEAN</h1>
                 <div class="header-para">
                     <h2>LAYOUT FOR WEB DESIGN</h2>
                 </div> 
                 <div class="started">
                     <button class="started">Get Started</button>
                 </div>
-                </div>  
+              </div>  
         </div>
+        
             <div class="wrapper">
 
                 <div class="row">
@@ -327,20 +48,20 @@
                         <i class="fa-solid fa-layer-group"></i>
                     </div>
                     
-                    <h3 class="text-info" > layered psd</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, ipsa!</p>
+                        <h3 class="text-info" > layered psd</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, ipsa!</p>
                 </div>
                 <div class="row">
                     <div class="icion-flight">
                         <i class="fa-solid fa-plane-circle-exclamation"></i>
                     </div>
                     
-                    <h3 class="text-info" >ready to go</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, ipsa!</p>
+                        <h3 class="text-info" >ready to go</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, ipsa!</p>
 
                 </div>
 
-</div>
+              </div>
 
                 <div class="main-second">
                     <div class="featured-content">
@@ -349,88 +70,90 @@
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit                            Perferendis libero earum labore amet possimus, cupiditate unde porro ratione aliquid officiis. 
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam dolor aut nostrum, possimus architecto corrupti sapiente sed, 
                             quisquam recusandae earum repellendus? Perspiciatis,
-                             dicta? </p>
-                             <img class="main-img" src="https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg" alt="" >
+                             dicta? 
+                        </p>
+                        <img class="main-img" src="https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg" alt="" >
 
                     </div>
                   
                 </div>
                 <div class="section">
                   <div class="box">
-                    <div class="left-section">
-                      <h4 class="secondry" >SECONDRY CONTENT</h4>
-                      <hr class="line">
-                      <P class="label" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, tempore! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                         Sit et corporis  </P>
-                      <button class="view-more" >view more</button>
-                    </div>
-                    <div class="right-sec">
-                      <img src="https://media.istockphoto.com/id/1322277517/photo/wild-grass-in-the-mountains-at-sunset.jpg?s=612x612&w=0&k=20&c=6mItwwFFGqKNKEAzv0mv6TaxhLN3zSE43bWmFN--J5w=" alt="">
-                    </div>
+                      <div class="left-section">
+                          <h4 class="secondry" >SECONDRY CONTENT</h4>
+                          <hr class="line">
+                          <P class="label" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, tempore! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                              Sit et corporis 
+                           </P>
+                          <button class="view-more" >view more</button>
+                      </div>
+                      <div class="right-sec">
+                          <img src="https://media.istockphoto.com/id/1322277517/photo/wild-grass-in-the-mountains-at-sunset.jpg?s=612x612&w=0&k=20&c=6mItwwFFGqKNKEAzv0mv6TaxhLN3zSE43bWmFN--J5w=" alt="">
+                      </div>
                   </div>
 
                    <div class="box2">
-                    <div class="left-section">
-                      <h4 class="secondry" >SECONDRY CONTENT</h4>
-                      <hr class="line">
-                      <p class="label" >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore, aut?Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                         Corporis facilis dolorem  </p>
-                      <button class="view-more" >view more</button>
+                      <div class="left-section">
+                          <h4 class="secondry" >SECONDRY CONTENT</h4>
+                          <hr class="line">
+                          <p class="label" >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore, aut?Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                              Corporis facilis dolorem 
+                          </p>
+                            <button class="view-more" >view more</button>
 
-                    </div>
-                      <div class="right-sec">
-                        <img src="https://media.istockphoto.com/id/1322277517/photo/wild-grass-in-the-mountains-at-sunset.jpg?s=612x612&w=0&k=20&c=6mItwwFFGqKNKEAzv0mv6TaxhLN3zSE43bWmFN--J5w=" alt="">
+                        </div>
+                          <div class="right-sec">
+                              <img src="https://media.istockphoto.com/id/1322277517/photo/wild-grass-in-the-mountains-at-sunset.jpg?s=612x612&w=0&k=20&c=6mItwwFFGqKNKEAzv0mv6TaxhLN3zSE43bWmFN--J5w=" alt="">
 
-                      </div>
+                          </div>
                     
                    </div>
                  
                 </div>
-                <h4>HEAD ENOUGH</h4>
-                <hr>
+                <div class="main-third">
+                  <h4 class="had-enough" >HEAD ENOUGH</h4>
+                     <hr>
+                    <p class="para" > Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, accusantium! Lorem,
+                        ipsum dolor sit amet consectetur adipisicing elit. Fugiat, consectetur.
+                    </p>
 
-
-                <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, accusantium! Lorem,
-                   ipsum dolor sit amet consectetur adipisicing elit. Fugiat, consectetur. </p>
-
-                   <div class="get-started">
-                    <button class="get-started">get started</button>
-                   </div>
-                   <div class="fotter">
-                    <div class="col1">
-                      <p>copyright2014CompanyName.All rights reserved</p>
+                    <div class="get-started">
+                        <button class="get-started">get started</button>
                     </div>
-                    <div class="col2">
-                      <H5 class="company" >COMPANY</H5>
-                      <a class="links" href="">About Us</a>
-                      <a class="links" href="">About Us</a>
-                      <a class="links" href="">About Us</a>
-                      <a class="links" href="">About Us</a>
-                    </div>
-                    <div class="col3">
-                      <h5 class="company">COMPANY</h5>
-                      <a class="links" href="">About US</a>
-                      <a class="links" href="">About US</a>
-                      <a class="links" href="">About US</a>
-                      <a class="links" href="">About US</a>
-                    </div>
-                    <div class="col4">
-                      <H5 class="company">COMPANY</H5>
-                      <a class="links" href="">About Us</a>
-                      <a class="links" href="">About Us</a>
-                      <a class="links" href="">About Us</a>
-                      <a class="links" href="">About Us</a>
-                    </div>
-
-                  
-                    </div>
-
-                   
+                </div>
 
                     
+                  <div class="fotter">
+                        <div class="col1">
+                            <p>copyright@2014CompanyName.All rights reserved
+                            </p>
+                            <a class="services" href="">Terms Of Services</a>
+                        </div>
+                    <div class="col2">
+                        <H5 class="company" >COMPANY</H5>
+                        <a class="links" href="">About Us</a>
+                        <a class="links" href="">Meet The Team</a>
+                        <a class="links" href="">What We Do</a>
+                        <a class="links" href="">Careers</a>
+                    </div>
+                    <div class="col3">
+                         <h5 class="company">COMPANY</h5>
+                         <a class="links" href="">About US</a>
+                          <a class="links" href="">Meet The Team</a>
+                          <a class="links" href="">What We Do</a>
+                          <a class="links" href="">Careers</a>
+                    </div>
+                    <div class="col4">
+                          <H5 class="company">COMPANY</H5>
+                          <a class="links" href="">About Us</a>
+                          <a class="links" href="">Meet The Team</a>
+                          <a class="links" href="">What We Do</a>
+                          <a class="links" href="">Careers</a>
+                    </div>
+
                   
-                   
-            
+                  </div>
+
     </div>
    
    
