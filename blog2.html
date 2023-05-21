@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+</head>
+<style>
+    header {
+    display: flex;
+    justify-content: space-around;   
+    }
+
+    header h1{
+    font-size: 23px;
+    font-weight: 300;
+    margin: 10px 10px;
+    }
+
+    nav ul {
+    margin: 10px 10px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+    }
+    a{
+      color: black;
+      text-decoration: none;
+    }
+    .image{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .main-section{
+        background-image:linear-gradient(90deg, #41405c 0%, #090979 35%, #00d4ff 100%),url(https://media.istockphoto.com/id/1281783803/photo/mountains-velliangiri-view-with-blue-sky-and-green-fores.jpg?s=612x612&w=0&k=20&c=25epzQEXtzNmGMtUoBa13SpHZ4rGz2HDLuHfWaUa51o=);
+        background-size: cover;
+        height: 500px;
+        width: 1200px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    .main-section h2{
+        width: 400px;
+        color: white;
+        padding: 20px;
+        
+    }
+    .button{
+        position: absolute;
+        bottom: 110px;
+        left: 20px;
+        
+    }
+    .read{
+        background-color:  rgb(126, 207, 214);
+        width: 120px;
+        height: 40px;
+        border-radius: 50px;
+        border: none;
+        cursor: pointer;
+    }
+    .read:hover{
+        background-color:   rgb(8, 119, 132);
+    }
+    .author{
+        position: absolute;
+        bottom: 190px;
+        left: 20px;
+    }
+    .card-grids{
+        display: grid;
+        grid-template-columns:repeat(4,1fr);
+        margin: 40px 100px;
+    }
+    img{
+        width: 300px;
+    }
+    
+    .user,.research,.read-more,.img-title h4{
+        margin: 0;
+
+    }
+    .read-more button{
+        background: transparent;
+        border: none;
+        font-weight: 700;
+        color: #95cad5;
+        cursor: pointer;
+        font-size: 14px;
+        margin-left: 20px;
+    }
+    .read-more button:hover{
+        color :#064b59df;
+        
+    }
+    .user{
+        font-size: 13px;
+        color: rgb(127, 126, 126);
+        font-weight: 100;
+        margin: 6px 25px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .research{
+        font-size: 13px;
+        color: #8fb5bd;
+        margin: 6px 25px;
+    }
+
+    .img-title{
+        width: 200px;
+        margin-left: 25px;
+    }
+    
+</style>
+<body>
+    <header>
+        <h1>Simply</h1>
+        <nav>
+            <ul>
+                <a href=""><li>home</li></a>
+                <a href=""><li>portfold</li></a>
+                <a href="contact-form.html" target="_blank" ><li>contacts</li></a>
+                <a href=""><li>blog</li></a>
+                
+                 
+            </ul>
+        </nav>
+      </header>
+      <div class="image">
+        <div class="main-section">
+            <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi</h2>
+            <div class="author">
+                <span>BY HENRY SENDERS</span>
+                <span>27 jan 2020</span>
+            </div>
+           
+            <div class="button">
+                <button class="read">read more</button>
+            </div>
+          </div>
+      </div>
+      <div class="card-grids">
+        <div class="box">
+            <img src="https://pbs.twimg.com/media/FjU2lkcWYAgNG6d.jpg" alt="">
+            <div class="research">
+                <span>RESEARCH</span>
+            </div>
+            <div class="img-title">
+                <h4>Lorem ipsum dolor sit amet consectetur.</h4>
+            </div>
+            <div class="user">
+                <span>BY HENERY SANDERS</span>
+                <span>27 june 2020</span>
+            </div>
+            <div class="read-more">
+                <button class=" read-more">Read More</button>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://pbs.twimg.com/media/FjU2lkcWYAgNG6d.jpg" alt="">
+            <div class="research">
+                <span>RESEARCH</span>
+            </div>
+            <div class="img-title">
+                <h4>Lorem ipsum dolor sit amet consectetur.</h4>
+            </div>
+            <div class="user">
+                <span>BY HENERY SANDERS</span>
+                <span>27 june 2020</span>
+            </div>
+            <div class="read-more">
+                <button class=" read-more">Read More</button>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://pbs.twimg.com/media/FjU2lkcWYAgNG6d.jpg" alt="">
+            <div class="research">
+                <span>RESEARCH</span>
+            </div>
+            <div class="img-title">
+                <h4>Lorem ipsum dolor sit amet consectetur.</h4>
+            </div>
+            <div class="user">
+                <span>BY HENERY SANDERS</span>
+                <span>27 june 2020</span>
+            </div>
+            <div class="read-more">
+                <button class=" read-more">Read More</button>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://pbs.twimg.com/media/FjU2lkcWYAgNG6d.jpg" alt="">
+            <div class="research">
+                <span>RESEARCH</span>
+            </div>
+            <div class="img-title">
+                <h4>Lorem ipsum dolor sit amet consectetur.</h4>
+            </div>
+            <div class="user">
+                <span>BY HENERY SANDERS</span>
+                <span>27 june 2020</span>
+            </div>
+            <div class="read-more">
+                <button class=" read-more">Read more</button>
+            </div>
+        </div>
+        
+       
+        
+        
+      </div>
+     
+      
+</body>
+</html>
