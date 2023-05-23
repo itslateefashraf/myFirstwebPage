@@ -258,6 +258,7 @@ color: rgb(83, 113, 116);
 .col1 p{
     width: 350px;
     margin-bottom: 20px;
+    letter-spacing: 2px;
     
 }
 .services{
