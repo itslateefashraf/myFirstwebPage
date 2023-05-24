@@ -1,0 +1,241 @@
+body{
+    margin: 0;
+    padding: 0;
+    padding-left: 530px;
+    padding-right: 100px;
+    padding-top: 80px;
+    position: relative;
+}
+header{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    text-align: center;
+    border-bottom: 5px solid rgb(193, 8, 8);
+    background-color: rgb(255, 254, 252);
+    margin-bottom: 10px;
+    position: fixed;
+    top: 0;
+    left: 200px;
+    right: 100px;
+ 
+    
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    
+    
+}
+nav ul li a:hover{
+    color:rgb(126, 207, 214) ;
+    text-decoration: underline;
+}
+nav{
+    width: 70%;
+}
+.left-sec{
+    width: 15%;
+    
+}
+.right-sec{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-info span {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.header-info span a{
+    color: black;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    letter-spacing: 1px;
+}
+.header-info span a:hover{
+    text-decoration: underline;
+}
+.sidebar-nav{
+    background-color: rgb(255, 253, 253);
+    position: fixed;
+    top: 210px;
+    left: 200px;
+    right: 0;
+    bottom:30px;
+    width: 300px;
+    
+   
+
+}
+ /* .sidebar-nav{
+    display: inline-block;
+ }
+*/
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    cursor: pointer;
+    
+}
+.card-grid{
+    display: grid;
+    grid-template-rows:33% 33% 33%;
+}
+.card-info, .card-head,.author p{
+    width: 200px;
+    font-size: 12px;
+    
+}
+.nav-heading{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    
+
+}
+.sidebar-nav ul {
+    border-left-width: 2px solid;
+    list-style: none;
+}
+.sidebar-nav ul li a{
+    color: black;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-decoration: none;
+    
+    
+   
+}
+.sidebar-nav ul li a:hover{
+    text-decoration: underline;
+}
+.nav-links ul li a{
+    width: 220px;
+    height: 60px;
+   display: flex;
+   
+}
+.card-info {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    color: rgb(131, 133, 133);
+    letter-spacing: 1px;
+   
+    
+
+}
+.card-head  {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: black;
+    margin-left: 3px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  
+}
+.card-head:hover{
+    text-decoration: underline;
+
+}
+.author{
+    margin-left: 3px;
+    font-size: 10px;
+}
+.author p ,.card-info p,.card-head p{
+    margin: 0;
+}
+img{
+    width: 220px;
+   
+}
+.footer{
+    background-color:rgb(202, 198, 198);
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 30px;
+    margin-top: 15px;
+    
+   
+}
+.box1{
+   
+    width: 200px;
+    height: 300px;
+}
+
+.box2 , .nav-links ul a{
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    width: 200px;
+    height: 300px;
+}
+ .nav-links ul a:hover{
+    text-decoration: underline;
+}
+
+.box3 ,.links ul a{
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 150px;
+    height: 300px;
+}
+.links ul a:hover{
+    text-decoration: underline;
+}
+
+.box4 ,.footer-link ul a{
+    color: black;
+    font-size: 12px;
+    text-decoration: none;
+    width: 300px;
+    height: 300px;
+
+}
+.footer-link ul a:hover{
+    text-decoration: underline;
+}
+.icion-fb ,.icion-insta, .icion-twitter{
+    font-size: 20px;
+    display: inline-block;
+    margin: 13px;
+}
+.icion-fb:hover{
+    color: blue;
+    cursor: pointer;
+}
+.icion-insta:hover{
+    color: rgb(255, 38, 0);
+    cursor: pointer;
+}
+.icion-twitter:hover{
+    color: rgb(3, 111, 184);
+    cursor: pointer;
+}
+
+
