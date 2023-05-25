@@ -1,0 +1,264 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.cricbuzz-logo img{
+    width: 100px;
+    padding-left: 30px;
+
+}
+header{
+    display: flex;
+    align-items: center;
+    background-color: #009270;
+    height: 50px;
+}
+.header{
+    background-color:#4a4a4a;
+   display: flex;
+   align-items: center;
+   height: 45px;
+}
+nav ul{
+    width: 930px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+   list-style: none;
+   padding-left: 80px;
+   font-family: Arial, Helvetica, sans-serif;
+   margin: 0;
+}
+nav ul li a {
+    font-size: 17px;
+    color:white;
+    text-decoration: none;
+    padding: 15px;
+   
+}
+ nav ul li a:hover{
+    background-color: #028062;
+}
+.cricbuzz-plus{
+    width: 300px;
+
+}
+.cricbuzz-plus button{
+    width: 130px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-weight: 100;
+    font-size: 15px;
+    text-align: center;
+    padding: 0;
+}
+.searchbar{
+    width: 200px;
+}
+.teams{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.teams h4{
+    background-color:#333;
+    margin: 0;
+    padding: 10px;
+    width: 110px;
+    text-align: center;
+    cursor: pointer;
+}
+.teams h4:hover{
+    background-color: #4a4a4a;
+}
+.teams p{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    cursor: pointer;
+    padding: 14px;
+   
+}
+.teams p:hover{
+    background:#3b3b3b ;
+}
+.video-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr );
+  
+}
+.side-bar{
+    height:900px;
+    width: 500px;
+    padding: 20px;
+    border-left: 1px solid rgb(232, 232, 232);
+}
+.side-bar h2{
+    font-size: 17px;
+    color:#009270 ;
+}
+.side-bar p {
+    width: 300px;
+    font-weight: 700;
+}
+button{
+    background-color: #009270 ;
+    width: 120px;
+    border: none;
+    color: white;
+    font-size: 12px;
+    padding: 13px;
+    font-weight: 600;   
+}
+main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.left-section{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px; 
+}
+.right-sec{
+    width: 350px;
+    border-left: 1px solid rgb(219, 219, 219);
+}
+.box-img{
+  
+    background-color: rgb(235, 235, 235);
+      width: 710px;
+      margin-top: 40px;
+      margin-left: 80px;
+      padding-left: 10px;
+      height: 480px;
+    
+}
+.container h1{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin: 0;
+}
+.schedule{
+    display: flex;
+    padding-left: 20px;
+    padding-top: 5px;
+    gap: 30px;
+    margin: 0;
+}
+.navigation ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin: 0;
+    border-bottom: 1px solid rgb(226, 226, 226);
+    padding-bottom: 5px;
+  
+}
+.navigation ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+.load-more {
+    background: transparent;
+    width: 100%;
+    color: black;
+    border: 1px solid rgb(202, 202, 202);
+    font-weight: 100;
+    font-size: 15px;
+    border-radius: 3px;
+}
+.load-more:hover{
+    background-color: rgb(211, 211, 211);
+    cursor: pointer;
+}
+.navigation ul li a:focus{
+    color:#028062;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.series,.schedule,.dateandtime{
+    font-size: 12px;
+}
+.series,.schedule,.dateandtime p{
+    color: rgb(206, 206, 206);
+    
+}
+.team1 p , .team2 p {
+    margin: 0;
+    font-weight: 700;
+    font-size: 18px;
+    padding-top: 5px;
+}
+.team1 p{
+    color: gray;
+}
+.winner-team p{
+    font-size: 15px;
+    color:#1866db;
+    margin: 0;
+    padding-top: 30px;
+}
+.best-player p{
+    margin: 0;
+    font-size: 13px;
+    color: gray;
+    font-weight: 300;
+    padding-top: 20px;
+}
+.player-name p  {
+    margin: 0;
+    font-size: 15px;
+    border-bottom: 2px solid rgb(237, 237, 237);
+    padding-bottom: 20px;
+
+}
+.box{
+    display: flex;
+    gap: 5px;
+    padding-top: 10px;
+    
+}
+.box p{
+    font-size: 14px;
+    width: 200px;
+}
+.footer{
+    background-color:#4a4a4a;
+    height: 300px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+    gap: 50px;
+}
+.footer h3{
+    font-size: 15px;
+    padding-left: 30px;
+    
+}
+.logo img{
+    padding-top: 20px;
+}
+.links ul a,.follow-us ul a,.company ul a{
+    color: white;
+    text-decoration: none;
+}
+.links ul a,.follow-us ul a,.company ul a:hover{
+    cursor: pointer;
+}
+
+
