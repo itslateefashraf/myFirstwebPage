@@ -1,0 +1,234 @@
+body{
+    padding-left: 223px;   
+}
+.sidebar{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid rgb(221, 221, 221);     
+}
+.logo svg {
+    width: 140px;
+    height: 30px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.sidebar-links{
+     font-size: 17px;
+     font-family: Arial, Helvetica, sans-serif;
+     padding: 10px;
+}
+.sidebar-links:hover{
+    background-color: rgb(217, 217, 217);
+    cursor: pointer;
+}
+svg {
+    width: 50px;
+    height: 20px;
+}
+.profile-pic{
+    width: 60px;
+    border-radius: 50px;
+    border: 2px solid rgb(186, 24, 13); 
+
+}
+
+.profile-image{
+    height: 20px;
+    border-radius: 50px;
+    margin-left: 14px;
+}
+.profile{
+    padding-left: 14px;
+}
+main{
+    width: 800px;
+    height: 100vh;
+}
+.right-sec{
+    width: 500px;
+    height: 100vh;
+    
+}
+.container{
+    display: flex;
+}
+
+.box{
+   width: 700px;
+   height: 100px;
+   display: flex;
+   flex-direction: row;
+   margin-top: 50PX;
+   padding-left: 30px;
+}
+.hero-section{
+    gap: 10px;
+    display: flex;
+}
+.time{
+    color: gray;
+    font-size: 15px;
+    padding-left: 5px;
+    padding: 10px;
+}
+.entity{
+    padding-left: 200px;
+    font-weight:bolder;
+    color: rgb(109, 109, 109);
+}
+.hero-section img{
+    border-radius: 50px;
+    padding: 3px;
+    width: 40px;
+    border: 2px solid rgb(186, 24, 13);
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+   
+}
+.profile-name{
+    padding-left: 9px;
+}
+
+.profile-picture {
+    width: 106px;
+    height: 50px;
+    
+}
+.profile-picture img{
+    border: 3px solid rgb(189, 25, 25);
+    padding: 4px;
+
+
+}
+.profile-picture img{
+    width: 50px;
+    border-radius: 50%;
+}
+.my-profile{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-top: 50px;
+    
+}
+.picture img{
+    border-radius: 50px;
+    width: 60px;
+}
+.name p{
+    margin: 0;
+}
+.user-name {
+    color: gray;
+    font-size: 14px;
+}
+.hero-section_main{
+    display: flex;
+    justify-content: center;
+}
+.icions{
+    padding-top: 10px;
+}
+.icions svg{
+    width: 34px;
+    height: 20px;
+    cursor: pointer;
+}
+.icions svg:hover{
+    color: gray;
+}
+.herosec-image img{
+    width: 400px;
+    height: 450px;
+    padding-top: 10px;
+}
+.saved{
+    padding-left: 260px;
+}
+.herosec-title p{
+    margin: 0;
+}
+.likes p{
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 3px;
+    font-size: 14px;
+}
+.comment-read{
+    padding-top: 10px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.comment{
+    color: gray;
+    padding-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.switch{
+    background: transparent;
+    color:rgb(7, 174, 235);
+    padding-left: 100px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+.switch:hover{
+    color:rgb(119, 184, 207);
+}
+.suggestion{
+    display: flex;
+}
+.suggestion p{
+    color: gray;
+    font-size: 17px;
+
+}
+.see-all{
+    background: transparent;
+    border: none;
+    padding-left: 166px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.picture-info img{
+    width: 30px;
+    display: flex;
+    border-radius: 50px;
+}
+.my-suggestion{
+    display: flex;
+    gap: 20px;
+    padding-bottom: 10px;
+}
+.sug-switch{
+    background: transparent;
+    border: none;
+    color: rgb(7, 174, 235);
+    padding-left: 82px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+.sug-switch:hover{
+    color: rgb(23, 23, 221);
+}
+.footer p{
+    margin: 0;
+    color:rgb(174, 173, 173);
+   font-size: 15px;
+}
+.links{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.footer span{
+    color:rgb(174, 173, 173);
+}
